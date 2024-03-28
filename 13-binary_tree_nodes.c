@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_leaf - checks if a node is a leaf or not.
+ * is_leaf - checks if a node is a leaf or not.
  * @node: Is a pointer to the root node of the tree
  *		to count the number of nodes.
  * Return: 1 if node is a leaf, otherwise 0.
@@ -16,7 +16,8 @@ int is_leaf(const binary_tree_t *node)
 }
 
 /**
- * binary_tree_nodes - function that counts the nodes with at least 1 child in a binary tree.
+ * binary_tree_nodes - function that counts the nodes
+ *			with at least 1 child in a binary tree.
  * @tree: Is a pointer to the root node of the tree
  *		to count the number of nodes.
  * Return: If tree is NULL, the function must return 0
